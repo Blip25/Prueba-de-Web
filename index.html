@@ -1,8 +1,132 @@
-<html>
-  <head>
-    <title>Prueba</title>
-  </head>
-  <body>
-    <h1>Prueba de Web</h1>
-  </body>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        .header, .section {
+            margin-bottom: 20px;
+        }
+
+        .header img {
+            float: left;
+            margin-right: 20px;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+
+        .header div {
+            overflow: hidden;
+        }
+
+        .header h1 {
+            margin: 0;
+        }
+
+        .header p {
+            margin: 5px 0;
+        }
+
+        .section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+
+        .section p {
+            margin: 5px 0;
+        }
+
+        .skills ul, .education ul, .experience ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills li, .education li, .experience li {
+            background-color: #e4e4e4;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .skills li:hover, .education li:hover, .experience li:hover {
+            background-color: #d4d4d4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="tu-foto.jpg" alt="Foto de perfil">
+            <div>
+                <h1>Tu Nombre</h1>
+                <p>Correo electrónico: tu.email@ejemplo.com</p>
+                <p>Teléfono: +34 123 456 789</p>
+                <p>Dirección: Tu Dirección</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Perfil Profesional</h2>
+            <p>Descripción breve sobre tu experiencia y habilidades.</p>
+        </div>
+
+        <div class="section skills">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Habilidad 1</li>
+                <li>Habilidad 2</li>
+                <li>Habilidad 3</li>
+            </ul>
+        </div>
+
+        <div class="section experience">
+            <h2>Experiencia Laboral</h2>
+            <ul>
+                <li>
+                    <strong>Puesto de Trabajo</strong> en <em>Empresa</em> (Fecha inicio - Fecha fin)
+                    <p>Descripción de las responsabilidades y logros.</p>
+                </li>
+                <li>
+                    <strong>Puesto de Trabajo</strong> en <em>Empresa</em> (Fecha inicio - Fecha fin)
+                    <p>Descripción de las responsabilidades y logros.</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section education">
+            <h2>Educación</h2>
+            <ul>
+                <li>
+                    <strong>Título</strong> en <em>Institución</em> (Fecha inicio - Fecha fin)
+                    <p>Descripción del curso o logros.</p>
+                </li>
+                <li>
+                    <strong>Título</strong> en <em>Institución</em> (Fecha inicio - Fecha fin)
+                    <p>Descripción del curso o logros.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
 </html>
